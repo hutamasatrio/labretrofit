@@ -11,10 +11,10 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Data {
 
-    @SerializedName("RestResponse")
-    private RestResponse restResponse;
+    @SerializedName("RestResponseNew")
+    private RestResponseNew restResponseNew;
 
-    public RestResponse getRestResponse() {
-        return restResponse;
+    public RestResponseNew getRestResponseNew() {
+        return restResponseNew;
     }
 }
